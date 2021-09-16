@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <!-- ここから追加コンテンツ -->
+        <!-- Twitterカード -->
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@takaIT3" />
+        <meta
+            property="og:url"
+            content="https://keino-weblog.com/portfolio/hamburger/"
+        />
+        <meta property="og:title" content="Kei's Portfolio" />
+        <meta
+            property="og:description"
+            content="Kei.Hのポートフォリオサイト"
+        />
+        <meta
+            property="og:image"
+            content="https://takano-weblog.com/portfolio/hamburger/image/lp.jpg"
+        />
+        <!-- ここまで追加コンテンツ -->
+        <!-- サイトのタイトル -->
+        <title>Kei's Portfolio</title>
+        <!-- Google Fontsの読み込み -->
+        <link
+            href="https://fonts.googleapis.com/css?family=Lato:400,700|Noto+Sans+JP:400,700&display=swap&subset=japanese"
+            rel="stylesheet"
+        />
+        <!-- FontAwesomeの読み込み -->
+        <link
+            href="https://use.fontawesome.com/releases/v5.12.0/css/all.css"
+            rel="stylesheet"
+        />
+        <!-- stylesheetの読み込み -->
+        <link rel="stylesheet" href="./css/stylesheet.css" />
+    </head>
+    <body id="INDEX">
+        <!-- ヘッダー -->
+        <header id="header" class="l-header">
+            <div class="l-header_container l-content-wrap-default">
+                <h1 class="l-header_title">
+                    Kei's Portfolio
+                </h1>
+                <hr />
+                <p class="l-header_text">
+                    Welcome to my home page. And thank you for visiting my
+                    website.
+                    <br />
+                    I hope you enjoy viewing my portfolio.
+                </p>
+            </div>
+            <nav class="l-header_navigation">
+                <ul class="l-header_navigation_list">
+                    <li class="l-header_navigation_item">
+                        <a href="#profile" class="l-header_navigation_link"
+                            >Profile</a
+                        >
+                    </li>
+                    <li class="l-header_navigation_item">
+                        <a href="./portfolio/" class="l-header_navigation_link"
+                            >Portfolio</a
+                        >
+                    </li>
+                    <li class="l-header_navigation_item">
+                        <a href="#skill" class="l-header_navigation_link"
+                            >Skill</a
+                        >
+                    </li>
+                    <li class="l-header_navigation_item">
+                        <a href="#contact" class="l-header_navigation_link"
+                            >Contact</a
+                        >
+                    </li>
+                </ul>
+            </nav>
+            <button class="c-button">
+                <a class="menu-trigger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </a>
+            </button>
+        </header>
+
+        <!-- メインコンテンツ -->
+        <main id="main" class="l-main">
+            <!-- プロフィール -->
+            <article id="profile" class="p-profile l-content-wrap-default">
+                <div class="p-profile_container">
+                    <h2 class="p-profile_title">
+                        Kei's Profile
+                    </h2>
+                    <hr />
+                    <img
+                        src="./image/illust01.jpg"
+                        alt="プロフィール画像"
+                        class="p-profile_image"
+                    />
+                    <p class="p-profile_name">
+                        Kei.H
+                    </p>
+                    <p class="p-profile_text">
+                        26歳 / 神奈川県横浜市在住
+                        /東北地方秋田県出身で元は介護職員。
+                    </p>
+                    <p class="p-profile_text">
+                        持病の悪化で一時は失業、追い打ちにコロナ禍の中で闘病生活を強いられ人生の底を見るもWebサービスを通して出会った縁に恵まれ再起。
+                    </p>
+                    <p class="p-profile_text">
+                        現在は約1000kmを超えた大移住に成功し関東地方で就職活動を始めました。
+                    </p>
+                    <p class="p-profile_text">
+                        最近はReactとTypeScriptを学習しています。
+                    </p>
+                </div>
+            </article>
+            <!-- ポートフォリオ -->
+            <article id="portfolio" class="p-portfolio">
+                <div class="p-portfolio_container l-content-wrap-default">
+                    <h2 class="p-portfolio_title">Portfolio</h2>
+                    <hr />
+                    <div class="p-portfolio_list">
+                        <!-- カード上段左から1枚目 -->
+                        <a
+                            href="./portfolio/#portfolio01"
+                            class="p-portfolio_link"
+                        >
+                            <div class="p-portfolio_image-wrap">
+                                <img
+                                    src="./image/sample01.jpg"
+                                    alt="ポートフォリオ01"
+                                    class="p-portfolio_image"
+                                />
+                            </div>
+                            <div class="p-portfolio_content">
+                                <p class="p-portfolio_lead">
+                                    Kei's Portfolio
+                                </p>
+                                <p class="p-portfolio_text">
+                                    ポートフォリオサイト
+                                </p>
+                            </div>
+                        </a>
+                        <!-- カード上段左から2枚目 -->
+                        <a
+                            href="./portfolio/#portfolio02"
+                            class="p-portfolio_link"
+                        >
+                            <div class="p-portfolio_image-wrap">
+                                <img
+                                    src="./image/sample02.jpg"
+                                    alt="ポートフォリオ02"
+                                    class="p-portfolio_image"
+                                />
+                            </div>
+                            <div class="p-portfolio_content">
+                                <p class="p-portfolio_lead">
+                                    Portfolio Title
+                                </p>
+                                <p class="p-portfolio_text">
+                                    ポートフォリオの説明
+                                </p>
+                            </div>
+                        </a>
+                        <!-- カード上段左から3枚目 -->
+                        <a
+                            href="./portfolio/#portfolio03"
+                            class="p-portfolio_link"
+                        >
+                            <div class="p-portfolio_image-wrap">
+                                <img
+                                    src="./image/sample03.jpg"
+                                    alt="ポートフォリオ03"
+                                    class="p-portfolio_image"
+                                />
+                            </div>
+                            <div class="p-portfolio_content">
+                                <p class="p-portfolio_lead">
+                                    kei's Portfolio
+                                </p>
+                                <p class="p-portfolio_text">
+                                    ポートフォリオの説明
+                                </p>
+                            </div>
+                        </a>
+                        <!-- カード下段左から1枚目 -->
+                        <a
+                            href="./portfolio/#portfolio04"
+                            class="p-portfolio_link"
+                        >
+                            <div class="p-portfolio_image-wrap">
+                                <img
+                                    src="./image/sample04.jpg"
+                                    alt="ポートフォリオ04"
+                                    class="p-portfolio_image"
+                                />
+                            </div>
+                            <div class="p-portfolio_content">
+                                <p class="p-portfolio_lead">
+                                    Portfolio Title
+                                </p>
+                                <p class="p-portfolio_text">
+                                    ポートフォリオの説明
+                                </p>
+                            </div>
+                        </a>
+                        <!-- カード下段左から2枚目 -->
+                        <a
+                            href="./portfolio/#portfolio05"
+                            class="p-portfolio_link"
+                        >
+                            <div class="p-portfolio_image-wrap">
+                                <img
+                                    src="./image/sample05.jpg"
+                                    alt="ポートフォリオ05"
+                                    class="p-portfolio_image"
+                                />
+                            </div>
+                            <div class="p-portfolio_content">
+                                <p class="p-portfolio_lead">
+                                    Portfolio Title
+                                </p>
+                                <p class="p-portfolio_text">
+                                    ポートフォリオの説明
+                                </p>
+                            </div>
+                        </a>
+                        <!-- カード下段左から3枚目 -->
+                        <a
+                            href="./portfolio/#portfolio06"
+                            class="p-portfolio_link"
+                        >
+                            <div class="p-portfolio_image-wrap">
+                                <img
+                                    src="./image/sample06.jpg"
+                                    alt="ポートフォリオ06"
+                                    class="p-portfolio_image"
+                                />
+                            </div>
+                            <div class="p-portfolio_content">
+                                <p class="p-portfolio_lead">
+                                    Portfolio Title
+                                </p>
+                                <p class="p-portfolio_text">
+                                    ポートフォリオの説明
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                    <!-- ボタン -->
+                    <a href="./portfolio/" class="p-portfolio_button"
+                        >More Detail</a
+                    >
+                </div>
+            </article>
+
+            <!-- スキル -->
+            <article id="skill" class="p-skill">
+                <div class="p-skill_container l-content-wrap-default">
+                    <h2 class="p-skill_title">
+                        Skill
+                    </h2>
+                    <hr />
+                    <div class="p-skill_list">
+                        <div class="p-skill_item">
+                            <i class="fab fa-react fa-5x p-skill_icon"></i>
+                            <h3 class="p-skill_subtitle">
+                                React / TypeScript
+                            </h3>
+                            <p class="p-skill_text">
+                                Create Web Site with React, TypeScript
+                            </p>
+                        </div>
+                        <div class="p-skill_item">
+                            <i class="fab fa-laravel fa-5x p-skill_icon"></i>
+                            <h3 class="p-skill_subtitle">
+                                PHP(WordPress)
+                            </h3>
+                            <p class="p-skill_text">
+                                Create Web Service with PHP(WordPress)
+                            </p>
+                        </div>
+                        <div class="p-skill_item">
+                            <i class="fab fa-js-square fa-5x p-skill_icon"></i>
+                            <h3 class="p-skill_subtitle">
+                                JavaScript / jQuery
+                            </h3>
+                            <p class="p-skill_text">
+                                Create Dynamic functionality with jQuery
+                            </p>
+                        </div>
+                        <div class="p-skill_item">
+                            <i class="fab fa-html5 fa-5x p-skill_icon"></i>
+                            <h3 class="p-skill_subtitle">
+                                HTML / CSS
+                            </h3>
+                            <p class="p-skill_text">
+                                Create Website with HTML, CSS
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <!-- コンタクトボックス -->
+            <article id="contact" class="p-contact">
+                <div class="p-contact_container l-content-wrap-default">
+                    <h2 class="p-contact_title">Contact</h2>
+                    <hr />
+                    <p class="p-contact_text">
+                        興味がございましたらこちらからご連絡ください。ご連絡をお待ちしております。
+                    </p>
+                    <form
+                        class="p-contact_form"
+                        action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSd5CvBUW73LAZ-nb4H1p9MaMqJGqF05-PvR4vrvtokxysXM7Q/formResponse"
+                    >
+                        <label class="p-contact_label" for="name">お名前</label>
+                        <input
+                            class="p-contact_input"
+                            type="text"
+                            id="name"
+                            name="entry.2005620554"
+                            placeholder="田中 太郎"
+                            required
+                        />
+                        <label class="p-contact_label" for="email"
+                            >E-mail</label
+                        >
+                        <input
+                            class="p-contact_input"
+                            type="text"
+                            id="email"
+                            name="entry.1045781291"
+                            placeholder="sample@email.com"
+                            required
+                        />
+                        <label class="p-contact_label" for="message"
+                            >お問い合わせ内容</label>
+                        <textarea
+                            class="p-contact_textarea"
+                            name="entry.839337160"
+                            id="message"
+                            placeholder="お気軽にお問い合わせください"
+                            required
+                        ></textarea>
+                        <button
+                            class="p-contact_button"
+                            type="submit"
+                            name="button"
+                            value="送信"
+                        >
+                            送信
+                        </button>
+                    </form>
+                </div>
+            </article>
+        </main>
+        <!-- フッター -->
+        <!-- フッター -->
+        <footer id="footer" class="l-footer">
+            <div class="l-footer_container l-content-wrap-default">
+                <p class="l-footer_title">Kei's Portfolio</p>
+                <div class="l-footer_sns">
+                    <a href="https://twitter.com/takaIT3" class="l-footer_link">
+                        <i class="fab fa-twitter fa-lg l-footer_icon"></i>
+                    </a>
+                    <a href="https://twitter.com/takaIT3" class="l-footer_link">
+                        <i class="fab fa-facebook-f fa-lg l-footer_icon"></i>
+                    </a>
+                    <a href="https://twitter.com/takaIT3" class="l-footer_link">
+                        <i class="fab fa-instagram fa-lg l-footer_icon"></i>
+                    </a>
+                </div>
+                <small class="l-footer_copyright">
+                    &copy 2021 Kei's Portfolio All Right Reserved.
+                </small>
+            </div>
+            <button type="button" class="l-footer_button js-scroll-top">
+                <i class="fas fa-angle-double-up l-footer_go-to-top"></i>
+            </button>
+        </footer>
+        <!-- jQueryのCDNを読み込み -->
+        <script
+            src="https://code.jquery.com/jquery-3.4.1.min.js"
+            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+            crossorigin="anonymous"
+        ></script>
+        <!-- smooth-scroll.js -->
+        <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+        <!-- JavaScriptファイルの読み込み -->
+        <script src="./js/main.js"></script>
+    </body>
+</html>
