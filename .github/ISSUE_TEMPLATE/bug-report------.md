@@ -2,7 +2,7 @@
 name: Bug report (日本語)
 about: 改善のためのバグレポートです
 title: Bug report
-labels: 'Problem: bug'
+labels: 'bug'
 assignees: ''
 ---
 

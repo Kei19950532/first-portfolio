@@ -2,7 +2,7 @@
 name: Feature request (日本語)
 about: 新機能のリクエスト
 title: ''
-labels: 'Feedback: feature request'
+labels: 'enhancement'
 assignees: ''
 ---
 
