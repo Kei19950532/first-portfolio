@@ -14,7 +14,7 @@ $(function () {
   $(".js-scroll-top").on("click", function () {
     $("body, html").animate({ scrollTop: 0 }, 500);
   });
-  // 追加したコード 終
+  // 追加したコード 終わり
 });
 
 // 追加したコード
@@ -23,4 +23,4 @@ $(function () {
 var scroll = new SmoothScroll('a[href*="#"]', {
   speed: 400,
 });
-// 追加したコード 終
+// 追加したコード 終わり
