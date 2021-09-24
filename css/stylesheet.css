@@ -5,7 +5,7 @@ Reset
 *,
 *::before,
 *::after {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html,
@@ -27,45 +27,45 @@ article,
 footer,
 header,
 nav {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    outline: 0;
-    font-size: 100%;
-    vertical-align: baseline;
-    background: transparent;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
 }
 
 body {
-    line-height: 1.5;
+  line-height: 1.5;
 }
 
 article,
 footer,
 header,
 nav {
-    display: block;
+  display: block;
 }
 
 nav ul {
-    list-style: none;
+  list-style: none;
 }
 
 a {
-    margin: 0;
-    padding: 0;
-    font-size: 100%;
-    vertical-align: baseline;
-    background: transparent;
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
 }
 
 button {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 input {
-    vertical-align: middle;
+  vertical-align: middle;
 }
 
 /* ==================================
@@ -84,55 +84,55 @@ secondary: #fc9303;
 
 /* ここからコード */
 body {
-    font-family: "Noto Sans JP", sans-serif;
-    color: #222;
-    letter-spacing: 1px;
-    line-height: 1.5;
+  font-family: "Noto Sans JP", sans-serif;
+  color: #222;
+  letter-spacing: 1px;
+  line-height: 1.5;
 }
 
 body.active {
-    overflow-y: hidden;
-    /* ハンバーガーメニューを開いた時の縦スクロール動作防止 */
+  overflow-y: hidden;
+  /* ハンバーガーメニューを開いた時の縦スクロール動作防止 */
 }
 
 img {
-    width: 100%;
-    vertical-align: middle;
-    /* 上下中央揃え */
+  width: 100%;
+  vertical-align: middle;
+  /* 上下中央揃え */
 }
 
 h1 {
-    font-size: 32px;
+  font-size: 32px;
 }
 
 h2 {
-    font-size: 32px;
+  font-size: 32px;
 }
 
 h3 {
-    font-size: 18px;
+  font-size: 18px;
 }
 
 p {
-    font-size: 16px;
+  font-size: 16px;
 }
 
 a {
-    font-size: 16px;
-    color: #222;
-    text-decoration: none;
-    /* aタグには下線が設定されているので消す */
+  font-size: 16px;
+  color: #222;
+  text-decoration: none;
+  /* aタグには下線が設定されているので消す */
 }
 
 hr {
-    width: 50px;
-    margin: 25px auto 30px auto;
-    padding: 0;
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 3px solid #fc9303;
-    border-radius: 1px;
+  width: 50px;
+  margin: 25px auto 30px auto;
+  padding: 0;
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 3px solid #fc9303;
+  border-radius: 1px;
 }
 
 /* ==================================
@@ -140,386 +140,386 @@ hr {
    ===================================== */
 
 .l-content-wrap-default {
-    position: relative;
-    max-width: 1024px;
-    /* 最大の横幅1024px */
-    margin-right: auto;
-    margin-left: auto;
-    /* 左右にマージンを付けてコンテンツを中央揃えに */
-    box-sizing: content-box !important;
-    padding-right: 2.4% !important;
-    padding-left: 2.4% !important;
+  position: relative;
+  max-width: 1024px;
+  /* 最大の横幅1024px */
+  margin-right: auto;
+  margin-left: auto;
+  /* 左右にマージンを付けてコンテンツを中央揃えに */
+  box-sizing: content-box !important;
+  padding-right: 2.4% !important;
+  padding-left: 2.4% !important;
 }
 
 @media screen and (max-width: 1000px) {
-    .l-content-wrap-default {
-        /* レスポンシブにしたら左右にpaddingを付ける設定 */
-        max-width: 100%;
-        padding-right: 3% !important;
-        padding-left: 3% !important;
-        box-sizing: border-box !important;
-    }
+  .l-content-wrap-default {
+    /* レスポンシブにしたら左右にpaddingを付ける設定 */
+    max-width: 100%;
+    padding-right: 3% !important;
+    padding-left: 3% !important;
+    box-sizing: border-box !important;
+  }
 }
 
 @media screen and (max-width: 576px) {
-    .l-content-wrap-default {
-        /* レスポンシブにしたら左右にpaddingを付ける設定 */
-        max-width: 100%;
-        padding-right: 5% !important;
-        padding-left: 5% !important;
-        box-sizing: border-box !important;
-        /* paddingが幅に含まれる状態 */
-    }
+  .l-content-wrap-default {
+    /* レスポンシブにしたら左右にpaddingを付ける設定 */
+    max-width: 100%;
+    padding-right: 5% !important;
+    padding-left: 5% !important;
+    box-sizing: border-box !important;
+    /* paddingが幅に含まれる状態 */
+  }
 }
 
 /* ==================================
 ヘッダー
 ===================================== */
 #INDEX .l-header {
-    /* index.htmlで使用する背景画像 */
-    background-image: linear-gradient(
-            to bottom,
-            rgba(92, 77, 66, 0.6) 0%,
-            rgba(92, 77, 66, 0.6) 100%
-        ),
-        url(../image/sample01.jpg);
+  /* index.htmlで使用する背景画像 */
+  background-image: linear-gradient(
+      to bottom,
+      rgba(92, 77, 66, 0.6) 0%,
+      rgba(92, 77, 66, 0.6) 100%
+    ),
+    url(../image/sample01.jpg);
 }
 
 .l-header {
-    width: 100%;
-    /* 横幅いっぱい */
-    height: 100vh;
-    /* 高さ画面いっぱい */
-    background-size: cover;
-    /* 背景画像を画面サイズいっぱい */
-    background-position: center;
-    /* 背景画像を中央寄せ */
-    background-repeat: no-repeat;
-    /* 背景画像を繰り返ししない */
-    display: flex;
-    /* おまじない */
-    align-items: center;
-    /* 上下中央揃え */
-    justify-content: center;
-    /* 左右中揃え */
+  width: 100%;
+  /* 横幅いっぱい */
+  height: 100vh;
+  /* 高さ画面いっぱい */
+  background-size: cover;
+  /* 背景画像を画面サイズいっぱい */
+  background-position: center;
+  /* 背景画像を中央寄せ */
+  background-repeat: no-repeat;
+  /* 背景画像を繰り返ししない */
+  display: flex;
+  /* おまじない */
+  align-items: center;
+  /* 上下中央揃え */
+  justify-content: center;
+  /* 左右中揃え */
 }
 
 .l-header_title {
-    text-align: center;
-    /* 文字を中央寄せ */
-    color: #fff;
-    /* 文字色 */
-    font-family: "Lato", sans-serif;
-    /* フォント */
+  text-align: center;
+  /* 文字を中央寄せ */
+  color: #fff;
+  /* 文字色 */
+  font-family: "Lato", sans-serif;
+  /* フォント */
 }
 
 .l-header_text {
-    text-align: center;
-    color: #d3d3d3;
-    font-family: "Lato", sans-serif;
+  text-align: center;
+  color: #d3d3d3;
+  font-family: "Lato", sans-serif;
 }
 
 .l-header_navigation {
-    /* bodyにactiveが付与されていないときは隠す */
-    opacity: 0;
-    /* 透明度 */
-    visibility: hidden;
-    /* 要素を非表示にする */
-    width: 100%;
-    height: 100vh;
-    background-color: #222;
-    /* 背景色 */
-    position: fixed;
-    /* 固定表示 */
-    top: 0;
-    left: 0;
-    z-index: 10;
-    /* 重なりの順番 */
-    transition: all 0.3s ease-in-out;
+  /* bodyにactiveが付与されていないときは隠す */
+  opacity: 0;
+  /* 透明度 */
+  visibility: hidden;
+  /* 要素を非表示にする */
+  width: 100%;
+  height: 100vh;
+  background-color: #222;
+  /* 背景色 */
+  position: fixed;
+  /* 固定表示 */
+  top: 0;
+  left: 0;
+  z-index: 10;
+  /* 重なりの順番 */
+  transition: all 0.3s ease-in-out;
 }
 
 .l-header_navigation_list {
-    position: absolute;
-    /* 絶対位置 */
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  position: absolute;
+  /* 絶対位置 */
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .l-header_navigation_item:not(:last-child) {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .l-header_navigation_link {
-    color: #fff;
+  color: #fff;
 }
 
 .active .l-header_navigation {
-    /* bodyにactiveが付与されている時 */
-    opacity: 1;
-    visibility: visible;
+  /* bodyにactiveが付与されている時 */
+  opacity: 1;
+  visibility: visible;
 }
 
 .c-button {
-    width: 40px;
-    height: 40px;
-    border: 1px solid #222;
-    border-radius: 20px;
-    background-color: #fff;
-    position: fixed;
-    top: 20px;
-    right: 5%;
-    z-index: 10;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #222;
+  border-radius: 20px;
+  background-color: #fff;
+  position: fixed;
+  top: 20px;
+  right: 5%;
+  z-index: 10;
 }
 
 .c-button:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .menu-trigger,
 .menu-trigger span {
-    display: inline-block;
-    transition: all 0.4s;
-    box-sizing: border-box;
+  display: inline-block;
+  transition: all 0.4s;
+  box-sizing: border-box;
 }
 
 .menu-trigger {
-    position: relative;
-    width: 24px;
-    height: 26px;
+  position: relative;
+  width: 24px;
+  height: 26px;
 }
 
 .menu-trigger span {
-    position: absolute;
-    left: 0;
-    width: 24px;
-    height: 2px;
-    background-color: #333;
-    border-radius: 1px;
+  position: absolute;
+  left: 0;
+  width: 24px;
+  height: 2px;
+  background-color: #333;
+  border-radius: 1px;
 }
 
 .menu-trigger span:nth-of-type(1) {
-    top: 5px;
+  top: 5px;
 }
 
 .menu-trigger span:nth-of-type(2) {
-    top: 13px;
+  top: 13px;
 }
 
 .menu-trigger span:nth-of-type(3) {
-    bottom: 3px;
+  bottom: 3px;
 }
 
 .active .menu-trigger span:nth-of-type(1) {
-    transform: translateY(8px) rotate(-45deg);
+  transform: translateY(8px) rotate(-45deg);
 }
 
 .active .menu-trigger span:nth-of-type(2) {
-    opacity: 0;
+  opacity: 0;
 }
 
 .active .menu-trigger span:nth-of-type(3) {
-    transform: translateY(-8px) rotate(45deg);
+  transform: translateY(-8px) rotate(45deg);
 }
 
 /* ==================================
 プロフィール
 ===================================== */
 .p-profile {
-    padding: 100px 0;
-    /* 内側の余白 */
-    /* 最後の要素以外という意味 */
+  padding: 100px 0;
+  /* 内側の余白 */
+  /* 最後の要素以外という意味 */
 }
 
 .p-profile_container {
-    max-width: 700px;
-    /* 最大の横幅 */
-    margin: 0 auto;
-    /* 上下0、左右auto */
+  max-width: 700px;
+  /* 最大の横幅 */
+  margin: 0 auto;
+  /* 上下0、左右auto */
 }
 
 .p-profile_title {
-    font-family: "Lato", sans-serif;
-    text-align: center;
+  font-family: "Lato", sans-serif;
+  text-align: center;
 }
 
 .p-profile_image {
-    width: 150px;
-    height: 150px;
-    margin: 0 auto 30px auto;
-    /* 上右下左の順番 */
-    display: block;
-    /* 中央寄せにするため */
-    border-radius: 75px;
-    /* 角を丸くする */
+  width: 150px;
+  height: 150px;
+  margin: 0 auto 30px auto;
+  /* 上右下左の順番 */
+  display: block;
+  /* 中央寄せにするため */
+  border-radius: 75px;
+  /* 角を丸くする */
 }
 
 .p-profile_name {
-    text-align: center;
-    margin-bottom: 20px;
-    /* 下の余白 */
-    font-size: 18px;
-    font-weight: bold;
-    /* 文字の太さ */
+  text-align: center;
+  margin-bottom: 20px;
+  /* 下の余白 */
+  font-size: 18px;
+  font-weight: bold;
+  /* 文字の太さ */
 }
 
 .p-profile_text:not(:last-child) {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 /* ==================================
 ポートフォリオ
 ===================================== */
 .p-portfolio {
-    padding: 100px 0;
-    background-color: rgba(211, 211, 211, 0.3);
+  padding: 100px 0;
+  background-color: rgba(211, 211, 211, 0.3);
 }
 
 .p-portfolio_title {
-    font-family: "Lato", sans-serif;
-    text-align: center;
+  font-family: "Lato", sans-serif;
+  text-align: center;
 }
 
 .p-portfolio_list {
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .p-portfolio_link {
-    width: 30%;
-    display: block;
-    background-color: #fff;
-    border-radius: 0 0 5px 5px;
-    /* 上右下左の順番 */
+  width: 30%;
+  display: block;
+  background-color: #fff;
+  border-radius: 0 0 5px 5px;
+  /* 上右下左の順番 */
 }
 
 @media screen and (max-width: 1000px) {
-    .p-portfolio_link {
-        width: 48%;
-    }
+  .p-portfolio_link {
+    width: 48%;
+  }
 }
 
 @media screen and (max-width: 576px) {
-    .p-portfolio_link {
-        width: 100%;
-    }
+  .p-portfolio_link {
+    width: 100%;
+  }
 }
 
 .p-portfolio_link:hover .p-portfolio_image {
-    /* リンクをhoverしたときにimgタグが拡大される */
-    transform: scale(1.2);
+  /* リンクをhoverしたときにimgタグが拡大される */
+  transform: scale(1.2);
 }
 
 .p-portfolio_link + .p-portfolio_link {
-    /* 隣り合う要素があった場合 */
-    margin-left: 5%;
-    /* PCサイズ */
+  /* 隣り合う要素があった場合 */
+  margin-left: 5%;
+  /* PCサイズ */
 }
 
 @media screen and (max-width: 1000px) {
-    .p-portfolio_link + .p-portfolio_link {
-        margin-left: 4%;
-        /* Tabletサイズ */
-    }
+  .p-portfolio_link + .p-portfolio_link {
+    margin-left: 4%;
+    /* Tabletサイズ */
+  }
 }
 
 @media screen and (max-width: 576px) {
-    .p-portfolio_link + .p-portfolio_link {
-        margin-left: 0;
-        /* SPサイズ */
-    }
+  .p-portfolio_link + .p-portfolio_link {
+    margin-left: 0;
+    /* SPサイズ */
+  }
 }
 
 @media screen and (min-width: 1001px) {
-    .p-portfolio_link:nth-child(n + 4) {
-        /* 4番目以降 */
-        margin-top: 50px;
-    }
+  .p-portfolio_link:nth-child(n + 4) {
+    /* 4番目以降 */
+    margin-top: 50px;
+  }
 }
 
 @media screen and (max-width: 1000px) {
-    .p-portfolio_link:nth-child(n + 3) {
-        /* 3番目以降 */
-        margin-top: 40px;
-    }
+  .p-portfolio_link:nth-child(n + 3) {
+    /* 3番目以降 */
+    margin-top: 40px;
+  }
 }
 
 @media screen and (max-width: 576px) {
-    .p-portfolio_link:nth-child(n + 2) {
-        /* 2番目以降 */
-        margin-top: 30px;
-    }
+  .p-portfolio_link:nth-child(n + 2) {
+    /* 2番目以降 */
+    margin-top: 30px;
+  }
 }
 
 @media screen and (min-width: 1001px) {
-    .p-portfolio_link:nth-child(3n + 1) {
-        /* 2段目以降の一番左の要素 */
-        margin-left: 0;
-    }
+  .p-portfolio_link:nth-child(3n + 1) {
+    /* 2段目以降の一番左の要素 */
+    margin-left: 0;
+  }
 }
 
 @media screen and (max-width: 1000px) {
-    .p-portfolio_link:nth-child(2n + 1) {
-        /* 2段目以降の一番左の要素 */
-        margin-left: 0;
-    }
+  .p-portfolio_link:nth-child(2n + 1) {
+    /* 2段目以降の一番左の要素 */
+    margin-left: 0;
+  }
 }
 
 .p-portfolio_image-wrap {
-    overflow: hidden;
-    /* はみ出た要素を隠す */
+  overflow: hidden;
+  /* はみ出た要素を隠す */
 }
 
 .p-portfolio_image {
-    transition: all 0.3s;
-    /* アニメーションの速度 */
+  transition: all 0.3s;
+  /* アニメーションの速度 */
 }
 
 .p-portfolio_content {
-    padding: 10px 0;
+  padding: 10px 0;
 }
 
 .p-portfolio_lead {
-    font-size: 18px;
-    font-weight: bold;
-    text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
 }
 
 .p-portfolio_text {
-    text-align: center;
+  text-align: center;
 }
 
 .p-portfolio_button {
-    width: 240px;
-    height: 60px;
-    margin: 50px auto 0 auto;
-    display: block;
-    line-height: 58px;
-    /* 上下のボーダー2px分差し引く */
-    font-size: 18px;
-    text-align: center;
-    background-color: #fff;
-    border: 2px solid #fc9303;
-    border-radius: 2px;
-    cursor: pointer;
-    /* カーソルが当たった時にポインターに変更する */
-    transition: all 0.3s;
+  width: 240px;
+  height: 60px;
+  margin: 50px auto 0 auto;
+  display: block;
+  line-height: 58px;
+  /* 上下のボーダー2px分差し引く */
+  font-size: 18px;
+  text-align: center;
+  background-color: #fff;
+  border: 2px solid #fc9303;
+  border-radius: 2px;
+  cursor: pointer;
+  /* カーソルが当たった時にポインターに変更する */
+  transition: all 0.3s;
 }
 
 @media screen and (max-width: 1000px) {
-    .p-portfolio_button {
-        margin-top: 40px;
-    }
+  .p-portfolio_button {
+    margin-top: 40px;
+  }
 }
 
 @media screen and (max-width: 576px) {
-    .p-portfolio_button {
-        margin-top: 30px;
-    }
+  .p-portfolio_button {
+    margin-top: 30px;
+  }
 }
 
 .p-portfolio_button:hover {
-    background-color: rgba(252, 147, 3, 0.1);
+  background-color: rgba(252, 147, 3, 0.1);
 }
 
 /* ==================================
@@ -527,94 +527,94 @@ hr {
 ===================================== */
 
 .p-skill {
-    padding: 100px 0;
+  padding: 100px 0;
 }
 
 @media screen and (max-width: 576px) {
-    .p-skill {
-        padding: 75px 0;
-    }
+  .p-skill {
+    padding: 75px 0;
+  }
 }
 
 .p-skill_title {
-    font-family: "Lato", sans-serif;
-    text-align: center;
+  font-family: "Lato", sans-serif;
+  text-align: center;
 }
 
 .p-skill_list {
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .p-skill_item {
-    width: 22%;
+  width: 22%;
 }
 
 @media screen and (max-width: 1000px) {
-    .p-skill_item {
-        width: 48%;
-    }
+  .p-skill_item {
+    width: 48%;
+  }
 }
 
 @media screen and (max-width: 576px) {
-    .p-skill_item {
-        width: 100%;
-    }
+  .p-skill_item {
+    width: 100%;
+  }
 }
 
 .p-skill_item + .p-skill_item {
-    /* 隣り合う要素があった場合 */
-    margin-left: 4%;
+  /* 隣り合う要素があった場合 */
+  margin-left: 4%;
 }
 
 @media screen and (max-width: 576px) {
-    .p-skill_item + .p-skill_item {
-        margin-left: 0;
-    }
+  .p-skill_item + .p-skill_item {
+    margin-left: 0;
+  }
 }
 
 @media screen and (max-width: 1000px) {
-    .p-skill_item:nth-child(2n + 1) {
-        /* 2段目の1番左の要素 */
-        margin-left: 0;
-    }
+  .p-skill_item:nth-child(2n + 1) {
+    /* 2段目の1番左の要素 */
+    margin-left: 0;
+  }
 }
 
 @media screen and (max-width: 1000px) {
-    .p-skill_item:nth-child(n + 3) {
-        /* 3番目の要素 */
-        margin-top: 50px;
-    }
+  .p-skill_item:nth-child(n + 3) {
+    /* 3番目の要素 */
+    margin-top: 50px;
+  }
 }
 
 @media screen and (max-width: 576px) {
-    .p-skill_item:nth-child(n + 2) {
-        /* 2番目の要素 */
-        margin-top: 50px;
-    }
+  .p-skill_item:nth-child(n + 2) {
+    /* 2番目の要素 */
+    margin-top: 50px;
+  }
 }
 
 .p-skill_icon {
-    margin-bottom: 30px;
-    text-align: center;
-    display: block;
+  margin-bottom: 30px;
+  text-align: center;
+  display: block;
 }
 
 @media screen and (max-width: 576px) {
-    .p-skill i {
-        margin-bottom: 10px;
-    }
+  .p-skill i {
+    margin-bottom: 10px;
+  }
 }
 
 .p-skill_subtitle {
-    margin-bottom: 10px;
-    font-family: "Lato", sans-serif;
-    text-align: center;
+  margin-bottom: 10px;
+  font-family: "Lato", sans-serif;
+  text-align: center;
 }
 
 .p-skill_text {
-    font-family: "Lato", sans-serif;
-    text-align: center;
+  font-family: "Lato", sans-serif;
+  text-align: center;
 }
 
 /* ==================================
@@ -622,88 +622,88 @@ hr {
 ===================================== */
 
 .p-contact {
-    padding: 100px 0;
-    background-color: #e8e8e8;
+  padding: 100px 0;
+  background-color: #e8e8e8;
 }
 
 @media screen and (max-width: 576px) {
-    .p-contact {
-        padding: 75px 0;
-    }
+  .p-contact {
+    padding: 75px 0;
+  }
 }
 
 .p-contact_title {
-    font-family: "Lato", sans-serif;
-    text-align: center;
+  font-family: "Lato", sans-serif;
+  text-align: center;
 }
 
 .p-contact_text {
-    margin-bottom: 40px;
-    text-align: center;
+  margin-bottom: 40px;
+  text-align: center;
 }
 
 .p-contact_form {
-    max-width: 400px;
-    margin: 0 auto;
+  max-width: 400px;
+  margin: 0 auto;
 }
 
 .p-contact_label {
-    margin-bottom: 5px;
-    display: inline-block;
+  margin-bottom: 5px;
+  display: inline-block;
 }
 
 .p-contact_input {
-    width: 100%;
-    margin-bottom: 20px;
-    padding: 10px 15px;
-    font-size: 16px;
-    font-family: "Noto Sans JP", sans-serif;
-    border: 1px solid #222;
-    border-radius: 2px;
-    display: inline-block;
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 10px 15px;
+  font-size: 16px;
+  font-family: "Noto Sans JP", sans-serif;
+  border: 1px solid #222;
+  border-radius: 2px;
+  display: inline-block;
 }
 
 .p-contact_textarea {
-    width: 100%;
-    height: 200px;
-    padding: 10px 15px;
-    font-size: 16px;
-    border: 1px solid #222;
-    line-height: 1.5;
-    border-radius: 2px;
-    display: inline-block;
+  width: 100%;
+  height: 200px;
+  padding: 10px 15px;
+  font-size: 16px;
+  border: 1px solid #222;
+  line-height: 1.5;
+  border-radius: 2px;
+  display: inline-block;
 }
 
 .p-contact_button {
-    width: 240px;
-    height: 60px;
-    margin: 50px auto 0 auto;
-    display: block;
-    line-height: 58px;
-    font-size: 18px;
-    font-family: "Noto Sans JP", sans-serif;
-    text-align: center;
-    background-color: #fff;
-    border: 2px solid #fc9303;
-    border-radius: 2px;
-    cursor: pointer;
-    transition: all 0.3s;
+  width: 240px;
+  height: 60px;
+  margin: 50px auto 0 auto;
+  display: block;
+  line-height: 58px;
+  font-size: 18px;
+  font-family: "Noto Sans JP", sans-serif;
+  text-align: center;
+  background-color: #fff;
+  border: 2px solid #fc9303;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: all 0.3s;
 }
 
 @media screen and (max-width: 1000px) {
-    .p-contact_button {
-        margin-top: 40px;
-    }
+  .p-contact_button {
+    margin-top: 40px;
+  }
 }
 
 @media screen and (max-width: 576px) {
-    .p-contact_button {
-        margin-top: 30px;
-    }
+  .p-contact_button {
+    margin-top: 30px;
+  }
 }
 
 .p-contact_button:hover {
-    background-color: rgba(252, 147, 3, 0.1);
+  background-color: rgba(252, 147, 3, 0.1);
 }
 
 /* ==================================
@@ -711,76 +711,76 @@ hr {
 ===================================== */
 
 .l-footer {
-    height: 200px;
-    background-color: #222;
-    text-align: center;
-    position: relative;
-    /* 親要素にposition: relative;を設定 */
+  height: 200px;
+  background-color: #222;
+  text-align: center;
+  position: relative;
+  /* 親要素にposition: relative;を設定 */
 }
 
 .l-footer_container {
-    height: 200px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .l-footer_title {
-    margin-bottom: 20px;
-    color: #fff;
-    font-size: 18px;
+  margin-bottom: 20px;
+  color: #fff;
+  font-size: 18px;
 }
 
 .l-footer_sns {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .l-footer_icon {
-    color: #fff;
+  color: #fff;
 }
 
 .l-footer_link {
-    margin-left: 10px;
+  margin-left: 10px;
 }
 
 .l-footer_copyright {
-    color: #fff;
-    font-size: 12px;
-    font-family: "Lato", sans-serif;
+  color: #fff;
+  font-size: 12px;
+  font-family: "Lato", sans-serif;
 }
 
 .l-footer_button {
-    /* スクロールトップボタン */
-    width: 36px;
-    height: 36px;
-    position: absolute;
-    /* 絶対位置。親要素l-footerをposition: relative;にする */
-    top: -18px;
-    /* マイナスの設定もできます */
-    right: 5%;
-    background-color: #e8e8e8;
-    border: 1px solid #222;
-    border-radius: 2px;
-    transform: rotate(45deg);
-    /* 45度傾ける */
-    cursor: pointer;
+  /* スクロールトップボタン */
+  width: 36px;
+  height: 36px;
+  position: absolute;
+  /* 絶対位置。親要素l-footerをposition: relative;にする */
+  top: -18px;
+  /* マイナスの設定も可能 */
+  right: 5%;
+  background-color: #e8e8e8;
+  border: 1px solid #222;
+  border-radius: 2px;
+  transform: rotate(45deg);
+  /* 45度傾ける */
+  cursor: pointer;
 }
 
 .l-footer_go-to-top {
-    color: #222;
-    transform: rotate(-45deg);
-    /* 中身を逆に-45度傾けてまっすぐにする */
+  color: #222;
+  transform: rotate(-45deg);
+  /* 中身を逆に-45度傾けてまっすぐにする */
 }
 
 #DETAIL .l-header {
-    /* 詳細ページで使用する背景画像 */
-    background-image: linear-gradient(
-            to bottom,
-            rgba(92, 77, 66, 0.6) 0%,
-            rgba(92, 77, 66, 0.6) 100%
-        ),
-        url(../image/sample07.jpg);
+  /* 詳細ページで使用する背景画像 */
+  background-image: linear-gradient(
+      to bottom,
+      rgba(92, 77, 66, 0.6) 0%,
+      rgba(92, 77, 66, 0.6) 100%
+    ),
+    url(../image/sample07.jpg);
 }
 
 /* ==================================
@@ -788,65 +788,65 @@ hr {
    ===================================== */
 
 .p-detail {
-    padding: 100px 0;
+  padding: 100px 0;
 }
 
 @media screen and (max-width: 576px) {
-    .p-detail {
-        padding: 75px 0;
-    }
+  .p-detail {
+    padding: 75px 0;
+  }
 }
 
 .p-detail:nth-child(even) {
-    /* evenは偶数番目 */
-    background-color: #e8e8e8;
+  /* evenは偶数番目 */
+  background-color: #e8e8e8;
 }
 
 .p-detail_container {
-    max-width: 800px;
+  max-width: 800px;
 }
 
 .p-detail_title {
-    font-family: "Lato", sans-serif;
-    text-align: center;
+  font-family: "Lato", sans-serif;
+  text-align: center;
 }
 
 .p-detail_subtitle {
-    margin-bottom: 40px;
-    font-size: 24px;
-    font-weight: normal;
-    text-align: center;
+  margin-bottom: 40px;
+  font-size: 24px;
+  font-weight: normal;
+  text-align: center;
 }
 
 .p-detail_image {
-    max-width: 600px;
-    margin: 0 auto 50px auto;
-    display: block;
+  max-width: 600px;
+  margin: 0 auto 50px auto;
+  display: block;
 }
 
 .p-detail_link-wrap {
-    margin-bottom: 40px;
-    text-align: center;
+  margin-bottom: 40px;
+  text-align: center;
 }
 
 @media screen and (max-width: 576px) {
-    .p-detail_link-wrap {
-        /* スマホの時だけ左寄せにする */
-        text-align: left;
-    }
+  .p-detail_link-wrap {
+    /* スマホの時だけ左寄せにする */
+    text-align: left;
+  }
 }
 
 .p-detail_link {
-    font-size: 18px;
-    color: #fc9303;
+  font-size: 18px;
+  color: #fc9303;
 }
 
 .p-detail_icon {
-    margin-left: 5px;
-    font-size: 0.8em;
+  margin-left: 5px;
+  font-size: 0.8em;
 }
 
 .p-detail_text:not(:last-child) {
-    /* 最後の要素以外という意味 */
-    margin-bottom: 30px;
+  /* 最後の要素以外という意味 */
+  margin-bottom: 30px;
 }
